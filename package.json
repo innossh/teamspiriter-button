@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/innossh/teamspiriter-button/issues"
   },
-  "homepage": "https://github.com/innossh/teamspiriter-button#readme"
+  "homepage": "https://github.com/innossh/teamspiriter-button#readme",
+  "dependencies": {
+    "node-dash-button": "^0.6.1",
+    "puppeteer": "^1.5.0"
+  }
 }
