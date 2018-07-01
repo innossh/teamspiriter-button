@@ -1,0 +1,19 @@
+{
+  "name": "teamspiriter-button",
+  "version": "0.0.1",
+  "description": "an example receiver of Amazon Dash Button to control TeamSpirit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/innossh/teamspiriter-button.git"
+  },
+  "author": "innossh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/innossh/teamspiriter-button/issues"
+  },
+  "homepage": "https://github.com/innossh/teamspiriter-button#readme"
+}
