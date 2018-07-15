@@ -18,6 +18,7 @@
   "homepage": "https://github.com/innossh/teamspiriter-button#readme",
   "dependencies": {
     "node-dash-button": "^0.6.1",
-    "puppeteer": "^1.5.0"
+    "puppeteer": "^1.5.0",
+    "date-fns": "^1.29.0"
   }
 }

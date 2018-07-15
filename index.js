@@ -1,7 +1,13 @@
-const address = "xx:xx:xx:xx:xx:xx";
-const dash_button = require('node-dash-button');
+const TeamSpiriterButton = require('./lib/TeamSpiriterButton');
 
-const dash = dash_button(address, null, null, 'all');
-dash.on("detected", () => {
-	console.log('detected');
-});
+(async () => {
+	const teamSpiriterButton = await TeamSpiriterButton.create(
+		{
+			macAddress: 'xx:xx:xx:xx:xx:xx',
+			dedicatedNumber: '1234',
+			username: 'foo@example.com',
+			password: 'password'
+		}
+	);
+	await teamSpiriterButton.launch();
+})();
